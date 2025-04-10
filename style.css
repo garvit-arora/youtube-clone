@@ -39,6 +39,10 @@ body{
     background-color: green;
     box-sizing: border-box;
     font-size: 25px;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    height: 100vh;
 }
 .buttons{
     height: 21px;
