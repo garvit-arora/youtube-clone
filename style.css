@@ -14,8 +14,8 @@ body{
 
 }
 .items:hover{
-    background-color: yellow;
-    border-radius: 10px;
+    background-color: grey;
+    border-radius: 6px;
 }
 
 .listofitems h3{
@@ -32,17 +32,17 @@ body{
 .divider{
     margin: 10px 0;
     height: 1px;
-    background-color: red;
+    background-color: rgb(100, 96, 96);
 }
 .grid{
-    width: 200px;
-    background-color: green;
+    width: 230px;
     box-sizing: border-box;
     font-size: 25px;
     scroll-snap-type: y mandatory;
     -webkit-overflow-scrolling: touch;
     overflow-y: scroll;
     height: 100vh;
+    position:fixed;
 }
 .buttons{
     height: 21px;
@@ -88,6 +88,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-left: 200px;
 }
 .description img{
     width: 30px;
