@@ -1,7 +1,7 @@
 body{
         background-color: #0f0f0f;
         color: white;
-        font-family: Afacad Flux;
+        font-family: "Afacad Flux";
         display: flex;
         flex-direction: row;
 }
@@ -34,6 +34,35 @@ body{
     height: 1px;
     background-color: rgb(100, 96, 96);
 }
+
+.searchbox{
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 30px;
+    width: 515px;
+    height: 36px;
+    position: relative;
+    left: 290px;
+    cursor:text;
+}
+.profileicon{
+    width: 35px;
+    border-radius: 20px;
+    right: -713px;
+    top: 3px;
+    position: relative;
+}
+.bellicon{
+    right: -700px;
+    top: 3px;
+    position: relative;
+    width: 40px;
+}
+.search{
+    top: -10px;
+    left: 18px;
+    position: relative;
+}
 .grid{
     width: 230px;
     box-sizing: border-box;
@@ -43,6 +72,17 @@ body{
     overflow-y: scroll;
     height: 100vh;
     position:fixed;
+    
+}
+.navitems{
+    list-style-type: none;
+}
+.maincontent1{
+    margin-top: 67px;
+}
+.navbar nav ul{
+    position:fixed;
+    display: flex;
 }
 .buttons{
     height: 25px;
@@ -89,7 +129,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin-left: 210px;
+    margin-left: 230px;
 }
 .description img{
     width: 30px;
